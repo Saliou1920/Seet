@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-a11y="true"></script>
+
+    <title>Seet</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <nav>
+              <img src="images/logo.png" alt="logo" class="logo">
+              <a href="#">About</a>
+            </nav>
+        </section>
+
+        <section id="search" class="search">
+            <div class="logo">
+                <span class="blue">S</span>
+                <span class="red">e</span>
+                <span class="yellow">e</span>
+                <span class="blue">t</span>
+                <span class="red-exclaim">!</span>
+
+            </div>
+            <div class="searchBar">
+                <form action="" method="get" id="form">
+                    <input type="search" class="search-1" name="search">
+                </form>
+                <button type="submit" form="form"><i class="fas fa-search"></i></button>
+            </div>
+        </section>
+    </div>
+
+    <section class="results">
+        <h2 class="offscreen">Search Results</h2>
+        <!-- dynamically change parts of a page without requiring the entire page to reload -->
+        <div class="statsBar">
+            <div id="stats" class="stats" aria-live="polite"></div>
+        </div>
+        <div id="searchResults" class="searchResults">
+
+            <div class="resultItem">
+                <div class="resultTitle">
+                    <a href="">Dachsund</a>
+                </div>
+                <div class="resultContents">
+                    <div class="resultImage">
+                        <img src="" alt="Dachsund">
+                    </div>
+                    <div class="resultText">
+                        <p class="resltDescription"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+</body>
+<footer>
+    <p>
+        Powered by <a href="http://www.wikipedia.org/">Wikipedia</a>
+    </p>
+</footer>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vw;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    /* background-color: yellow; */
+}
+
+.container {
+    padding: 3% 5%;
+}a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav img {
+    width: 10%;
+    float: left;
+}
+nav a {
+    margin-left: auto;
+}
+
+/* logo */
+.logo {
+    letter-spacing: 2px;
+}
+
+.logo .blue {
+    color: blue;
+}
+.logo .red {
+    color: red;
+}
+.logo .yellow {
+    color: yellow;
+}
+.logo .blue {
+    color: blue;
+}
+.logo .red-exclaim {
+    color: red;
+    transform: rotate(20deg);
+}
+.logo span {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+/* search */
+
+.search {
+    text-align: center;
+    padding-top: 40px;
+}
+
+form input {
+    flex-grow: 1;
+    width: 250px;
+	padding:4px 20px;
+    border: 1px solid rgb(133, 133, 213);
+	border-radius:25px;
+    
+}
+
+.search div {
+    padding-top: 5px;
+
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    min-width: 48px;
+    min-height: 48px;
+    border: 0;
+}
+
+button i {
+    font-size: 1rem;
+}
+footer {
+    text-align: center;
+}
