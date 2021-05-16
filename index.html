@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-a11y="true"></script>
+    <script src="js/main.js" type="module"></script>
 
     <title>Seet</title>
 </head>
@@ -18,7 +19,7 @@
             </nav>
         </section>
 
-        <section id="search" class="search">
+        <section id="searchEntry" class="searchEntry">
             <div class="logo">
                 <span class="blue">S</span>
                 <span class="red">e</span>
@@ -27,17 +28,17 @@
                 <span class="red-exclaim">!</span>
 
             </div>
-            <div class="searchBar">
-                <form action="" method="get" id="form">
-                    <input type="search" class="search-1" name="search">
-                </form>
-                <button type="submit" form="form"><i class="fas fa-search"></i></button>
-            </div>
+
+            <form id="searchBar" class="searchBar" role="search">
+                <input type="text" id="search" name="search" autocomplete="off">
+                <button id="searchButton" class="button searchButton" type="submit" form="form"><i class="fas fa-search"></i></button>
+            </form>
+
         </section>
     </div>
 
     <section class="results">
-        <h2 class="offscreen">Search Results</h2>
+        <h2 class="offscreen" aria-hidden="true">Search Results</h2>
         <!-- dynamically change parts of a page without requiring the entire page to reload -->
         <div class="statsBar">
             <div id="stats" class="stats" aria-live="polite"></div>
@@ -53,7 +54,7 @@
                         <img src="" alt="Dachsund">
                     </div>
                     <div class="resultText">
-                        <p class="resltDescription"></p>
+                        <p class="resltDescription">asdjk ljksdalk  kjlsdkj  akljfa</p>
                     </div>
                 </div>
             </div>

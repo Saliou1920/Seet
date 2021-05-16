@@ -59,21 +59,27 @@ nav a {
 }
 /* search */
 
-.search {
+.searchEntry {
     text-align: center;
     padding-top: 40px;
 }
 
+form {
+    display: flex;
+    align-items: center;
+}
 form input {
-    flex-grow: 1;
-    width: 250px;
+    width: 180px;
 	padding:4px 20px;
     border: 1px solid rgb(133, 133, 213);
 	border-radius:25px;
     
 }
+form input:focus {
+    outline: none;
+}
 
-.search div {
+.searchEntry div {
     padding-top: 5px;
 
 }
@@ -94,6 +100,25 @@ button {
 button i {
     font-size: 1rem;
 }
+button:hover {
+    color: blue;
+}
 footer {
     text-align: center;
+}
+
+/* Results */
+
+
+.resultItem {
+    display: flex;
+    align-items: center;
+}
+
+.resultContents {
+    display: flex;
+    align-items: center;
+}
+.resultText {
+    flex-grow: 1;
 }
